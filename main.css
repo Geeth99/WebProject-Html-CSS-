@@ -51,12 +51,27 @@ margin: 0;
     display: flex;
 }
 .slider-inner{
-    display: flex;
     flex:1;
     border: 1px solid red;
 }
+.left-slider{
+    display: flex;
+    align-items: center;
+    background-image: url('https://img.freepik.com/free-photo/clothing-rack-with-floral-hawaiian-shirts-hangers-hat_23-2149366018.jpg?t=st=1728639311~exp=1728642911~hmac=5efe1d6b90fd4167a8043b58420d35dee0db522ec617cc378df112aff773c0f3&w=740');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .left-side-content-wrapper{
     border: 1px solid red;
+    padding: 20px;
 }
+.left-side-content-wrapper > h1{
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
 
 /* slider */
