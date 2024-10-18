@@ -64,18 +64,45 @@ margin: 0;
     
 }
 .left-side-content-wrapper{
-    border: 1px solid red;
     padding: 20px;
     position: relative;
     z-index: 2;
 }
 .left-side-content-wrapper > h1{
-    font-family: "Cinzel", serif;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+.left-side-content-wrapper > h4{
+    font-family: "Lexend Deca", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    color: white;
+    color: rgb(0, 0, 0);
 }
+.left-side-content-wrapper > button{
+   background: none;
+   color: white;
+   font-family: "Lexend Deca", sans-serif;
+   text-transform: uppercase;
+   margin-top: 30px;
+   border: 1px solid white;
+   padding: 10px 10px;
+}
+.left-side-content-wrapper > button:hover{
+    background-color: white;
+    color: black;
+    font-family: "Lexend Deca", sans-serif;
+    text-transform: uppercase;
+    margin-top: 30px;
+    border: 1px solid white;
+    padding: 10px 10px;
+ }
 .shadow{
     width: 100%;
     height: 100%;
